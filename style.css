@@ -1,7 +1,9 @@
 /* * {
   border: 1px solid red
 } */
-
+.tester {
+  background-color: teal;
+}
 .img {
   height: 100px;
   width: 100px;
@@ -17,20 +19,18 @@
 }
 .bg {
   background-color: white;
-  background-image: linear-gradient(to left bottom, #000000 50%, #ffffff 50%);
+  background-image: linear-gradient(to left bottom, #b62b2b 50%, #ffffff 49%);
   
 }
-.break {
-  border-top: 2px solid greenyellow;
+.row-break {
+  border-bottom: 5px solid black;
+  border-top: 5px solid white;
 }
 
 .navbar {
-  height: 200px;
   flex-direction: row;
 }
-.row-three {
-  background-color: black;
-}
+
 .iframe {
   float: right;
 }
@@ -39,22 +39,26 @@
 }
 .row-two {
   height: 500px;
-  background-color: rgb(255, 166, 0);
+  background-color: #b62b2b;
 }
 .row-three {
   height: 450px;
-  background-color: blue;
+  background-color: white;
 }
 .row-four {
-  height: 100px;
-  background-color: green;
+  background-color: #b62b2b;
 }
 .footer {
-  background-color: rgb(255, 166, 0);
+  background-color: black;
+  color: white;
 }
 .card-position {
   position: relative;
   margin-bottom: -200px;
+}
+.card-row {
+  height: 100px;
+  background-color: white;
 }
 .button-position {
   position: relative;
