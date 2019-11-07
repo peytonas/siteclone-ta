@@ -4,6 +4,10 @@
 .tester {
   background-color: teal;
 }
+h6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .img {
   height: 100px;
   width: 100px;
