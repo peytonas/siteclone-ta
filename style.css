@@ -1,8 +1,8 @@
-* {
+/* * {
   border: 1px solid red
-}
+} */
 .tester {
-  background-color: teal;
+  background-color: white;
 }
 h6 {
   overflow: hidden;
@@ -11,20 +11,20 @@ h6 {
 .img {
   height: 100px;
   width: 100px;
+  border-radius: 50%;
 }
 .logo {
   height: 100px;
   width: 120px;
 }
 .img-card {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 .bg {
   background-color: white;
-  background-image: linear-gradient(to left bottom, #b62b2b 50%, #ffffff 49%);
-  
+  background-image: linear-gradient(to left bottom, #b62b2b 50%, #ffffff 49%);  
 }
 .row-break {
   border-bottom: 5px solid black;
@@ -42,7 +42,6 @@ h6 {
   display: none;
 }
 .row-two {
-  height: 500px;
   background-color: #b62b2b;
 }
 .row-three {
@@ -58,7 +57,10 @@ h6 {
 }
 .card-position {
   position: relative;
-  margin-bottom: -200px;
+  margin-bottom: -75px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  /* padding-bottom: 250px; */
 }
 .card-row {
   height: 100px;
